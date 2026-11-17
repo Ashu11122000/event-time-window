@@ -1,3 +1,22 @@
-.venv
+# Python virtual environment
+.venv/
+venv/
 
-.git
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Test artifacts
+.pytest_cache/
+.coverage
+
+# IDE
+.vscode/
+
+# Temporary files
+*.log
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
